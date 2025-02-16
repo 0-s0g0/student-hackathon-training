@@ -14,11 +14,56 @@
   gap:10px;
 }
 
-input{
+.taskinput{
   width:400px;
 }
 
 .addButton{
   background-color: black;
   color:white;
+  border:none;  
+  padding:0 10px;
+  border-radius:5px;
+}
+.tasklist{
+  margin:10px;
+}
+.task{
+  margin:10px;
+}
+
+.finishButton{
+  background-color: green;
+  color:white;
+  border:none;
+  padding:0 10px;
+  border-radius:5px;
+}
+
+.renewButton{
+  background-color: blue;
+  color:white;
+  border:none;
+  padding:0 10px;
+  border-radius:5px;
+  margin:5px;
+}
+
+.cancelButton{
+  background-color: red;
+  color:white;
+  border:none;
+  padding:0 10px;
+  border-radius:5px;
+  margin:5px;
+}
+
+.Edit{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Buttons{
+  margin:0 30px;
 }
